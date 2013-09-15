@@ -6,18 +6,18 @@ using Mono.Cecil;
 
 namespace Template.mod
 {
-	public class TutorialCondomMod : BaseMod, IOkCancelCallback
+	public class TutorialPreventionMod : BaseMod, IOkCancelCallback
 	{
 		bool askForTutorial = true;
 		//initialize everything here, Game is loaded at this point
-		public TutorialCondomMod ()
+		public TutorialPreventionMod ()
 		{
 		}
 
 
 		public static string GetName ()
 		{
-			return "TutorialCondom";
+			return "TutorialPrevention";
 		}
 
 		public static int GetVersion ()
